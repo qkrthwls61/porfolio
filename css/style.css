@@ -468,6 +468,7 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
 #colorlib-contact,
 #colorlib-about {
     padding: 10em 0;
+    padding-bottom: 5em;
     clear: both;
     position: relative;
 }
@@ -544,7 +545,10 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
     padding-left: 6em;
     position: relative;
 }
-
+.about-desc .desc span{
+    font-weight: bold;
+    color: gray
+}
 .about-desc .rotate {
     position: absolute;
     top: 7px;
@@ -911,7 +915,8 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
 }
 
 .services-flex .one-forth {
-    width: 45%;
+    width: 40%;
+    margin-left: 50px;
 }
 
 .services-flex .one-forth .one-third,
@@ -1331,8 +1336,9 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
 
 .article .desc h2 a {
     text-decoration: none;
-    color: #000;
+    color: rgba(0, 0, 0, 0.8);
     font-size: 0.8em;
+    font-weight: 700;
 }
 
 .article:hover .meta {
